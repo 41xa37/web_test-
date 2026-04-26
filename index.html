@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Art Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <span class="logo">✦ Portfolio</span>
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Art by Yuhan</h1>
+    <p>A collection of original works exploring color, form, and feeling.</p>
+    <a href="#gallery" class="btn">View Gallery</a>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <!-- Replace src with your real image paths -->
+      <div class="card">
+        <img src="images/art1.jpg" alt="Artwork 1" onerror="this.src='https://placehold.co/600x600/1a1a2e/e0e0e0?text=Artwork+1'" />
+        <div class="caption">
+          <h3>Untitled I</h3>
+          <p>2024 · Mixed media</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/art2.jpg" alt="Artwork 2" onerror="this.src='https://placehold.co/600x600/16213e/e0e0e0?text=Artwork+2'" />
+        <div class="caption">
+          <h3>Untitled II</h3>
+          <p>2024 · Acrylic on canvas</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/art3.jpg" alt="Artwork 3" onerror="this.src='https://placehold.co/600x600/0f3460/e0e0e0?text=Artwork+3'" />
+        <div class="caption">
+          <h3>Untitled III</h3>
+          <p>2025 · Digital</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/art4.jpg" alt="Artwork 4" onerror="this.src='https://placehold.co/600x600/533483/e0e0e0?text=Artwork+4'" />
+        <div class="caption">
+          <h3>Untitled IV</h3>
+          <p>2025 · Oil on canvas</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/art5.jpg" alt="Artwork 5" onerror="this.src='https://placehold.co/600x600/1a1a2e/e0e0e0?text=Artwork+5'" />
+        <div class="caption">
+          <h3>Untitled V</h3>
+          <p>2025 · Watercolor</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/art6.jpg" alt="Artwork 6" onerror="this.src='https://placehold.co/600x600/16213e/e0e0e0?text=Artwork+6'" />
+        <div class="caption">
+          <h3>Untitled VI</h3>
+          <p>2026 · Ink</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-text">
+        <h2>About</h2>
+        <p>
+          I'm Yuhan, an artist based in the world. My work draws from everyday
+          experiences, emotions, and the spaces between words. Each piece is an
+          invitation to pause and look a little closer.
+        </p>
+        <p>Available for commissions and collaborations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Reach out at <a href="mailto:41xa37@gmail.com">41xa37@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Yuhan · All rights reserved</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="" />
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
